@@ -1,0 +1,139 @@
+.headerBackground{
+    height: 1000px;
+    background-image: url(images/banner_background.jpg);
+    margin-top: 0;
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.header {
+    width: 1170px;
+    margin: 0 auto;
+    height: 1000px;
+}
+
+.headerMenuActive{
+    background-color: rgb(250, 250, 250);
+    position: fixed;
+    height: 100px;
+    width: 100%;
+    z-index: 1000;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 10px;
+}
+
+.headerMenu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 30px;
+    
+    
+
+}
+
+.headerMenu .menu1 a li {
+    display: inline-block;
+    height: auto;
+}
+
+.headerMenu .menu1 {
+    width: 300px;
+}
+
+.headerMenu .menu1 ul{
+    width: 300px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.headerMenu .menu1 ul a:first-child {
+    font-size: 150%;
+}
+
+.headerMenu .menu2 ul{
+    width: 300px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.headerMenu .menu2 ul a:first-child{
+    opacity: 0.5;
+   
+}
+
+.headerMenu .menu2 ul a:first-child:hover{
+    opacity: 1;
+}
+
+.buttonTypeBlue{
+    display: inline-block;
+    background-color: #267df4;
+    color: #ffffff;
+    width: 132px;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    border-radius: 100px;
+}
+
+.buttonTypeBlue:hover{
+    opacity: 0.8;
+}
+
+.headerArticle {
+    margin: 100px auto 0;
+    width: 800px;
+    text-align: center;    
+}
+
+.headerArticle h1 {
+    font-size: 62px;
+    color: #26272d;
+}
+
+.headerArticle p {
+    color: #8c8f94;
+    font-size: 20px;
+}
+
+.headerBackground .buttonTypeWhite {
+    margin-top: 60px;
+
+}
+.buttonTypeWhite {
+    display: inline-block;
+    line-height: 50px;
+    height: 50px;
+    width: 200px;
+    border: 1px solid #dadcdf;
+    border-radius: 100px;
+    text-align: center;
+}
+.buttonTypeWhite:hover {
+    border-color: black;
+    opacity: 0.8;
+}
+
+.headerSmartphone {
+    display: block;
+    position: relative;
+    bottom: -70px;
+    margin: 0 auto;
+    width: 369px;
+    
+}
+
+
+
+
+

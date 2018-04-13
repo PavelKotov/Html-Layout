@@ -1,0 +1,51 @@
+footer{
+    height: 550px;
+     display: flex;
+    flex-direction: row;
+    text-align: center;
+    padding: 50px 0px;
+    justify-content: space-around;
+    align-items: center;
+    height: 350px;
+}
+
+.FooterAside{
+    text-align: left;
+    width: 250px;
+    
+}
+.FooterAside>p{
+    padding: 20px 0;
+}
+.FooterAside a div{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.AppStoreButton div{
+    height: 62px;
+}
+.FooterArticle{
+    display: flex;
+    align-items: flex-start;
+}
+
+
+.FooterArticle li{
+
+    padding: 5px;
+    
+}
+.FooterArticle ul{
+    padding: 20px;
+    text-align: left;
+}
+.FooterArticle a li{
+    color: rgba(51, 49, 48, 0.62)
+}
+.FooterArticle a:first-child li{
+    color: rgb(39, 39, 41);
+    
+}
+
+

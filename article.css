@@ -1,0 +1,244 @@
+.article {
+    
+}
+
+.article .feature p {
+    margin: 50px 0;
+}
+
+.feature {
+    padding-top: 120px;
+    margin: 0 auto;
+    position: relative;
+    height: 600px;
+    background-color: white;
+    z-index: 100;
+    width: 1170px;
+    
+}
+
+.featureMain{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.featureMain div p:first-child {
+    margin-top: 0;
+    
+    
+}
+
+.featureMain div {
+    width: 500px;    
+    display: inline-block;
+    
+}
+
+.featureMain div h1 {
+    font-size: 26px;
+    color: #26272d;
+}
+
+.featureMain div p {
+    font-size: 18px;
+    color: #8c8f94;
+    margin-top: 2.5em;
+}
+
+.featurephone {
+    height: 900px;
+    
+}
+.featurephone img {
+    left: -300px;
+    position: absolute;
+
+}
+
+.featurephoneBox {
+    width: 1170px;
+    margin: 0 auto;
+    display: flex;
+    position: relative;
+}
+
+.featurephone .iphoneImage {
+    
+}
+
+.featurephone .buttonTypeBlue{
+    width: 200px;
+    margin-right: 20px;
+}
+
+.featurephone .buttonTypeWhite {
+    width: 140px;
+}
+
+.featurephone p {
+    color: #8c8f94; 
+    font-size: 20px;
+}
+
+.featurephone h1 {
+    font-size: 42px;
+}
+
+.featurephone .featurephonedDescription {
+    width: 470px;
+    margin-left: 650px;
+}
+
+.mapfeature {
+    height: 900px;
+    overflow: hidden;
+}
+
+.mapfeatureBox {
+    width: 1170px;
+    margin: 0 auto;
+    display: flex;
+    position: relative;
+}
+
+.mapfeatureDescription {
+    width: 470px;
+}
+
+.mapfeatureDescription h1 {
+ font-size: 42px;
+    margin-top: 0;
+}
+
+.mapfeatureDescription p {
+    font-size: 20px;
+    color: #8c8f94; 
+}
+.mapfeatureDescription p b {
+    color: black;
+}
+.mapImg img {
+    position: absolute;
+    right: -300px;
+    display: inline-block;
+}
+
+
+
+.iphoneScreens {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: #f5f5f8;
+    height: 1200px;
+    padding: 50px 0px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.iphoneScreens hr {
+    width: 50px;
+    background-color: aqua;
+    height: 3px;
+    border: none;
+}
+
+.iphoneScreens>p{
+    color: rgba(21, 19, 19, 0.6); 
+}
+
+
+.interfaceImg  {
+    display: flex;
+    width: 100%;
+    height: 772px;
+    justify-content: space-around;
+    align-items: center;
+    overflow: hidden;
+    
+}
+
+.interfaceImg img {
+    display: inline-block;
+    margin: 0 10px;
+    
+}
+.interfaceImg img:not(.interfaceImgMain){
+    height: 568px;
+    width: 320px;
+    min-width: 320px !important;
+    box-shadow: 3px 10px 30px rgba(128, 128, 128, 0.46);
+    
+}
+.interfaceImg img.interfaceImgMain{
+    height: 772px;
+    width: 395px;
+    min-width: 395px !important;
+    
+}
+
+
+
+
+    
+
+
+
+
+
+
+.inputArea {
+    display: flex;
+    width: 500px;
+    height: 50px;
+    border: 1px solid rgba(128, 128, 128, 0.5);
+    border-radius: 50px;
+    justify-content: space-between;
+    align-items: center;
+}
+.inputArea input {
+    padding: 16px 0px 16px 26px;
+    border: none;
+    background-color: inherit;
+    outline: none;
+    font-size: 16px;
+    width: 343px;
+}
+.inputArea button {
+    padding: 16px 26px;
+    border-radius: 50px;
+    margin-right: 3px;
+    background-color: #6fc754;
+    border: none;
+    color: azure;
+    outline: none;
+    cursor: pointer;
+}
+
+.AppStoreButton {
+    font-family: fantasy;
+    border-radius: 50px;
+    color: #ffffff;
+    display: block;
+    width: 210px;
+    height: 62px;
+    background-color: #131315;
+    font-size: 8px;
+}
+
+.AppStoreButton span{
+    font-family: sans-serif;
+    font-weight: 500;
+    font-size: 25px;
+}
+
+.subscribe{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 50px 0px;
+    justify-content: center;
+    align-items: center;
+    height: 350px;
+}
